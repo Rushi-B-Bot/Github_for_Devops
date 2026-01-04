@@ -1,0 +1,68 @@
+Create handwritten study notes titled:
+
+"GIT DAY 1: FUNDAMENTALS & SETUP"
+
+Include numbered sections:
+
+1. What is Git?
+• Version control system
+• Tracks code changes
+• Used for team collaboration
+• Foundation for DevOps
+
+2. Why Companies Use Git
+• Code history
+• Collaboration
+• Rollback safety
+• Audit trail
+
+3. Git Architecture
+• Working Directory
+• Staging Area
+• Repository
+(Simple flow arrows)
+
+4. Install Git
+• Download Git
+• git --version
+
+5. Basic Git Workflow
+• Write code
+• git add
+• git commit
+
+Add small hand-drawn icons (laptop, folder, arrows)
+
+Visual Style
+
+Looks like handwritten notes on a notebook
+
+Cream / off-white paper background
+
+Blue ink main text
+
+Orange / yellow highlighter for titles
+
+Clean marker-style headings
+
+Small hand-drawn icons
+
+Structured with numbered sections
+
+No clutter, lots of white space
+
+Looks like study notes made by a human
+
+✍️ Font & Layout
+
+Handwritten font (not cursive, not childish)
+
+Slightly imperfect alignment (natural)
+
+Boxes drawn with pen
+
+Bullet points short & crisp
+
+Diagrams with arrows
+
+digital emojis
