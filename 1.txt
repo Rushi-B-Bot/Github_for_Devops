@@ -1,0 +1,78 @@
+Create handwritten study notes titled:
+
+"GIT DAY 1: FUNDAMENTALS & SETUP"
+
+Include numbered sections:
+
+1. What is Git?
+• Version control system
+• Tracks code changes
+• Used for team collaboration
+• Foundation for DevOps
+
+2. Why Companies Use Git
+• Code history
+• Collaboration
+• Rollback safety
+• Audit trail
+
+3. Git Architecture
+• Working Directory
+• Staging Area
+• Repository
+(Simple flow arrows)
+
+4. Install Git
+• Download Git
+• git --version
+
+5. Basic Git Workflow
+• Write code
+• git add
+• git commit
+
+Add small hand-drawn icons (laptop, folder, arrows,flow,chart,diagram)
+
+Create an A4-size digital notebook page (21.0 x 29.7cm or 2480 x 3508 pixels) showing developer study notes about Git and GitHub. 
+
+**VISUAL STYLE:**
+- Realistic A4 notebook paper texture (subtle off-white or light gray paper background)
+- Soft ruled/lined notebook lines running horizontally across the page
+- Margin line on left side of page
+- Spiral binding visible on left edge (3-4 spiral rings)
+- Natural paper texture with slight imperfections, shadows, and realistic lighting
+- Page should look like a physical notebook photographed from above
+
+**CONTENT STRUCTURE (in my exact format):**
+Top center: "# GIT DAY 2: BRANCHING & MERGING" in bold caps
+Below: "## ADVANCED WORKFLOWS & COLLABORATION" as subheader
+Use numbered sections with: 1. 2. 3. 
+Use my exact bullet style: • → ✓ ▸
+Include code blocks in monospace font with syntax highlighting
+Box important sections with: [IMPORTANT CONCEPT] header
+Add arrow diagrams: main → feature → merge ▲
+Include command lists with clean typography
+Add Git logos and small tech icons in margins
+
+**TEXT STYLE:**
+- Text should look handwritten but clean and readable (digital handwriting font)
+- Blue/black ink color for main text
+- Red ink for important notes or warnings
+- Green ink for code snippets
+- Headers in bold, larger font
+- Code in monospace/terminal style font
+
+**LAYOUT:**
+- Content fills about 80% of page, leaving margins
+- Some text slightly rotated/asymmetrical like real handwriting
+- A few hand-drawn diagrams or arrows in the margins
+- Maybe a coffee stain or subtle wear marks for authenticity
+- Shadow beneath the page for 3D effect
+
+**SPECIFIC INSTRUCTIONS:**
+- DO NOT make it look like a digital graphic or UI
+- DO make it look like a real physical notebook page
+- Include the spiral binding clearly on left edge
+- Show page curl or slight bend for realism
+- Add subtle shadow beneath the notebook
+- Keep my exact content structure but make it look handwritten
