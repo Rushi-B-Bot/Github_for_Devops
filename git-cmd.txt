@@ -2,3 +2,5 @@
 # git push
 # git log --oneline 
 # git log --oneline --graph --all
+# git stash 
+# git log --pretty=format:"%h | %an | %ar | %d | %s"  //git config --global alias.pre 'log --pretty=format:"%h | %an | %ar | %d | %s"'  --> This cmd run added the alise in the home/asus/.gitconfig file 
