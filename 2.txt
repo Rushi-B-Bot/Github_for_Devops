@@ -66,3 +66,17 @@ Bullet points short & crisp
 Diagrams with arrows
 
 digital emojis
+
+✅ what each command does
+
+❓ why it exists
+
+🧠 when to use it
+
+🚫 when NOT to use it
+
+📜 effect on history
+
+🏢 real company scenarios
+
+🔗 how they are related
