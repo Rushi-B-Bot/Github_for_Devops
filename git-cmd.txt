@@ -7,3 +7,4 @@
 # git revert 1223223
 # git revert commit-no
 # git reset commit-no
+# git feact && git rebase ---> dangorus cmd beacuse confilct occur
