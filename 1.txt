@@ -76,3 +76,4 @@ Add Git logos and small tech icons in margins
 - Show page curl or slight bend for realism
 - Add subtle shadow beneath the notebook
 - Keep my exact content structure but make it look handwritten
+- hi demo
