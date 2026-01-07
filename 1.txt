@@ -1,6 +1,6 @@
 Create handwritten study notes titled:
 
-GIT DAY 1: FUNDAMENTALS & SETUP
+GIT DAY 1: FUNDAMENTALS & SETUP & Post
 
 Include numbered sections:
 
