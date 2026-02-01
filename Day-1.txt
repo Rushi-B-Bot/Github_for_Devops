@@ -1,80 +1,63 @@
-# Push to remote
-git push                      # Push current branch to upstream
-git push origin <branch>      # Push specific branch
-git push -u origin <branch>   # Push and set upstream
-git push --all                # Push all branches
-git push --tags               # Push all tags
-git push --force              # Force push (DANGEROUS!)
-git push --force-with-lease   # Safer force push
-git push origin --delete <branch>  # Delete remote branch
+BASIC WORKFLOW COMMANDS
+1. Status & Information
 
-# Pull from remote
-git pull                      # Fetch + merge
-git pull origin <branch>
-git pull --rebase             # Fetch + rebase instead of merge
-git pull --ff-only            # Only fast-forward
-git pull --no-commit          # Pull but don't auto-commit
+# Check repository status
+git status
+git status -s                 # Short format
+git status --short
+git status --porcelain        # Machine-readable format
 
-# Fetch updates
-git fetch                     # Get updates without merging
-git fetch origin
-git fetch --all               # Fetch from all remotes
-git fetch --prune             # Remove deleted remote branches
+# Show changes
+git diff                      # Unstaged changes
+git diff --staged             # Staged changes (--cached works too)
+git diff HEAD                 # All changes (staged + unstaged)
+git diff <commit1> <commit2>  # Compare two commits
+git diff <branch1> <branch2>  # Compare two branches
 
+# View commit history
+git log
+git log --oneline             # Compact view
+git log --graph               # Show branch structure
+git log --all --graph         # All branches with graph
+git log -p                    # Show patch (changes)
+git log --stat                # Show statistics
+git log --since="2 weeks ago"
+git log --until="2024-01-01"
+git log --author="name"
+git log --grep="search-term"
+git log -S "function-name"    # Search by code changes
+git log --no-merges           # Exclude merge commits
 
-
- Merge branches
-git merge <branch-name>
-git merge --no-ff <branch>    # Always create merge commit
-git merge --squash <branch>   # Squash all commits into one
-git merge --abort             # Abort merge in conflict
-
-# Rebase
-git rebase <branch>           # Rebase current branch onto another
-git rebase --interactive HEAD~3  # Interactive rebase last 3 commits
-git rebase -i <commit>        # Interactive from specific commit
-git rebase --continue         # Continue after resolving conflicts
-git rebase --skip             # Skip current commit
-git rebase --abort            # Abort rebase
-
-# Cherry-pick
-git cherry-pick <commit>      # Apply specific commit
-git cherry-pick <commit1> <commit2> <commit3>
-git cherry-pick --no-commit <commit>  # Apply without committing
-git cherry-pick -x <commit>   # Add original commit hash to message 
+Staging Changes
+bash
+# Add files to staging area
+git add <file-name>           # Add specific file
+git add .                     # Add all files in current directory
+git add -A                    # Add all files (including deletions)
+git add --all
+git add *.js                  # Add all JS files
+git add src/                  # Add all files in src directory
+git add -p                    # Interactive add (patch mode)
+git add -u                    # Add modified/deleted files only (not new)
+git add -N <file>             # Add but don't track (intent to add)
 
 
-# Update local from remote
-git fetch && git merge origin/main
-git pull --rebase origin main
+3. Committing Changes
+bash
+# Create commit
+git commit -m "Commit message"
+git commit -m "Title" -m "Description"  # Multi-line message
 
-# Push to multiple remotes
-# Add multiple push URLs:
-git remote set-url --add --push origin <url1>
-git remote set-url --add --push origin <url2>
-# Then just: git push
+# Commit with skipping staging area
+git commit -am "Message"      # Add all tracked files and commit
 
-# Mirror repository
-git clone --mirror <url>
-git push --mirror
+# Amend last commit
+git commit --amend            # Edit last commit message
+git commit --amend -m "New message"
+git commit --amend --no-edit  # Add changes to last commit without editing message
 
-devops intervview prep so deatailed therotical expplian + 
-give me all cmd and realted to this above 
-cmd and deatailed explaination
-✅ what each command does
+# Empty commit (for CI triggers)
+git commit --allow-empty -m "Trigger deployment"
 
-   Proper defination to tell in the intevvirew and explain the good waY
-
-❓ why it exists
-
-🧠 when to use itz
-
-🚫 when NOT to use it
-
-📜 effect on history
-
-🏢 real company scenarios
-
-🔗 how they are related 
-
-give pratiical examle with a git repo on how it works in acutal way 
+# Sign commit with GPG
+git commit -S -m "Signed commit"
