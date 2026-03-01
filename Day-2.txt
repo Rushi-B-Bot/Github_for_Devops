@@ -1,0 +1,30 @@
+
+# Local Operations 
+1. Stashing
+bash
+# Save changes temporarily
+git stash                     # Stash changes
+git stash -u                  # Include untracked files
+git stash -a                  # Include all (even ignored)
+
+# List stashes
+git stash list
+git stash show stash@{0}      # Show stash content
+git stash show -p stash@{0}   # Show with diff
+
+# Apply stashes
+git stash apply               # Apply latest stash
+git stash apply stash@{2}     # Apply specific stash
+git stash pop                 # Apply and remove from stash list
+git stash pop stash@{1}
+
+# Create branch from stash
+git stash branch <name> stash@{0}
+
+# Clear stashes
+git stash drop stash@{0}      # Delete specific stash
+git stash clear               # Delete all stashes
+
+
+
+
